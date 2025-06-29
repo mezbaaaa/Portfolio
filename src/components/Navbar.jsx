@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 syne-font sticky top-0 z-50 px-4 py-4">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 syne-font sticky top-0 z-50 px-4 py-4 max-sm:hidden">
       <div className="flex gap-5 items-center flex-wrap justify-center">
         {navLinks.map((item, i) => {
           const id = sectionIds[i];
@@ -48,7 +48,7 @@ const Navbar = () => {
               className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ${
                 activeSection === id
                   ? 'text-xl font-bold border border-gray-700 px-5 py-3.5 rounded-3xl'
-                  : 'text-xl font-bold text-[#8A8B91] '
+                  : 'text-xl font-bold text-[#8A8B91] px-5 py-3.5 rounded-3xl'
               }`}
             >
               {item}

@@ -1,17 +1,18 @@
 import React from 'react';
-import profileImg from '../assets/avatar-profile.avif'
+import profileImg from '../assets/avatar-profile.avif';
 import { Globe } from 'lucide-react';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Profile = () => {
     return (
-        <div className='border rounded-4xl py-8 px-7 border-gray-700 '>
-            <div className='flex items-center gap-3'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="85px" height="85px" viewBox="0 0 85 85">
+        <div className='border rounded-3xl py-8 px-7 max-sm:py-6 max-sm:px-4 border-gray-700 sticky top-0 z-50 mt-4 max-w-sm mx-auto bg-black'>
+            {/* Header Section */}
+            <div className='flex items-center gap-4 max-sm:gap-2'>
+                <svg xmlns="http://www.w3.org/2000/svg" className='w-14 h-14 max-sm:w-10 max-sm:h-10' viewBox="0 0 85 85">
                     <defs>
                         <linearGradient id="gradientFill" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
-                            <stop offset="0%" stop-color="#CEC4EF" />
-                            <stop offset="100%" stop-color="#E4B8BF" />
+                            <stop offset="0%" stopColor="#CEC4EF" />
+                            <stop offset="100%" stopColor="#E4B8BF" />
                         </linearGradient>
                     </defs>
                     <path fill="url(#gradientFill)" d="M51,0H34C15.2,0,0,15.2,0,34v17c0,14.3,8.9,26.6,21.4,31.6c0,0,0,0,0,0l0,0C25.3,84.1,29.5,85,34,85h17
@@ -23,31 +24,46 @@ const Profile = () => {
     h3.9V39.3z M31.8,43.2v-3.9h3.9v3.9H31.8z M63.1,47.1V51h-3.9v-3.9v-3.9v-3.9h3.9v3.9V47.1z M35.7,47.1v-3.9h3.9h3.9h3.9h3.9v3.9
     h-3.9h-3.9h-3.9H35.7z M59.2,39.3h-3.9v-3.9h3.9V39.3z M55.3,43.2h-3.9v-3.9h3.9V43.2z"/>
                 </svg>
+                <p className='text-3xl max-sm:text-xl bg-gradient-to-r from-[#CEC4EF] to-[#E9E9F1] bg-clip-text text-transparent font-bold leading-tight'>
+                    Tahsinul <br /> Islam Mezba
+                </p>
+            </div>
 
-                <p className='text-3xl text-gradient-to-r from-[#CEC4EF] to-[#E9E9F1] font-bold'>Tahsinul <br /> Islam Mezba</p>
+            {/* Profile Image */}
+            <div className='my-6 flex justify-center'>
+                <img src={profileImg} alt="Profile" className='rounded-2xl w-48 h-48 max-sm:w-40 max-sm:h-40 object-cover border border-gray-900 shadow-xl' />
             </div>
-            <div>
-                <img src={profileImg} alt="Profile Image" className='rounded-2xl my-8 border border-gray-900 shadow-xl' />
-            </div>
-            <div>
+
+            {/* Specialization */}
+            <div className='text-center'>
                 <p className='text-base text-[#C6C7D3]'>Specialization:</p>
-                <h2 className='text-[#E4B8BF] font-bold text-xl space-y-1.5 '>
-                    <p className='mt-2'>Full Stack Web Developer</p>
+                <h2 className='text-[#E4B8BF] font-bold text-xl mt-2 space-y-1'>
+                    <p>Full Stack Web Developer</p>
                     <p>MERN Stack Enthusiast</p>
                 </h2>
             </div>
-            <div className='mt-3'>
+
+            {/* Location */}
+            <div className='text-center mt-4'>
                 <p className='text-base text-[#C6C7D3]'>Based in:</p>
-                <h2 className='text-[#CEC4EF] font-bold text-xl '>Dhaka,Bangladesh</h2>
+                <h2 className='text-[#CEC4EF] font-bold text-xl'>Dhaka, Bangladesh</h2>
             </div>
-            <div className='flex items-center justify-evenly mt-5'>
-                <a target='_blank' href="/"><p className='p-4 border rounded-3xl cursor-pointer'><Globe /></p></a>
-                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/"><p className='p-4 border rounded-3xl cursor-pointer'><FaLinkedin size={21} /></p></a>
-                <a target='_blank' href="https://github.com/mezbaaaa"><p className='p-4 border rounded-3xl cursor-pointer'><FaGithub size={21}/></p></a>
-                <a target='_blank' href="https://www.facebook.com"><p className='p-4 border rounded-3xl cursor-pointer'><FaFacebook size={21} /></p></a>
+
+            {/* Social Icons */}
+            <div className='flex items-center justify-center gap-4 mt-6 flex-wrap'>
+                <a target='_blank' href="/" className='p-3 border rounded-3xl hover:scale-105 transition'><Globe /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition'><FaLinkedin size={20} /></a>
+                <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition'><FaGithub size={20} /></a>
+                <a target='_blank' href="https://www.facebook.com" className='p-3 border rounded-3xl hover:scale-105 transition'><FaFacebook size={20} /></a>
             </div>
-            <div className='mt-4 mx-auto w-max'>
-                <a href=""><button className='font-bold text-xl border rounded-3xl py-3.5 px-7 cursor-pointer text-black bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] '>Let's Work Together</button></a>
+
+            {/* CTA Button */}
+            <div className='mt-6 text-center'>
+                <a href="#">
+                    <button className='font-bold text-lg max-sm:text-base border rounded-3xl py-3 px-6 text-black bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] hover:opacity-90 transition'>
+                        Let's Work Together
+                    </button>
+                </a>
             </div>
         </div>
     );
