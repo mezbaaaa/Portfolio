@@ -1,6 +1,6 @@
 [
     {
-        "id": "proj-002",
+        "id": "proj-001",
         "title": "EcoMeet — Social Events Platform",
         "description": "EcoMeet is a full-stack web app that promotes eco-friendly and social development events. Built with React, Firebase Auth, Node.js, and MongoDB, it allows users to create, join, and manage community events with secure authentication and a clean, responsive UI. The goal was to learn real-world authentication, protected routing, CRUD operations, and to build something meaningful that encourages positive community action.",
         "tags": [
