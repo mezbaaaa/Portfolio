@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Isometric House",
+    "categories": ["Illustrations", "3D Render"],
+    "description": "Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio.",
+    "image": "assets/isometric-house.png"
+  },
+  {
+    "title": "Minimalist Workspace",
+    "categories": ["UI Design", "3D Render"],
+    "description": "Clean and elegant workspace concept created for modern UI layouts and minimalist branding.",
+    "image": "assets/minimalist-workspace.png"
+  },
+  {
+    "title": "Futuristic Dashboard",
+    "categories": ["Web Design", "UI/UX"],
+    "description": "A sleek futuristic dashboard interface with glowing effects and modern typography.",
+    "image": "assets/futuristic-dashboard.png"
+  },
+  {
+    "title": "Nature Scene",
+    "categories": ["Illustrations", "Environment"],
+    "description": "Vibrant outdoor scene designed with natural lighting and organic textures for storytelling.",
+    "image": "assets/nature-scene.png"
+  }
+]
