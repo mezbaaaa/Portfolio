@@ -39,7 +39,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 syne-font sticky top-0 z-50 px-4 py-4 max-sm:hidden">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 syne-font sticky top-15 z-50 px-4 py-4 max-sm:hidden">
       <div className="flex gap-5 items-center flex-wrap justify-center">
         {navLinks.map((item, i) => {
           const id = sectionIds[i];
@@ -61,7 +61,7 @@ const Navbar = () => {
       <div>
         <a
           href="#contact"
-          className="flex items-center gap-1.5 border px-8 py-3.5 text-2xl rounded-3xl bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] text-black font-bold cursor-pointer"
+          className="flex items-center gap-1.5 border border-[#CEC4EF] px-8 py-3.5 text-2xl rounded-3xl bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] text-black font-bold cursor-pointer"
         >
           Let's Talk <MessageSquareMore />
         </a>
