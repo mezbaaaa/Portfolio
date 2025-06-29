@@ -47,7 +47,7 @@ const Navbar = () => {
               onClick={() => scrollTo(id)}
               className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ${
                 activeSection === id
-                  ? 'text-xl font-bold border border-[#C7C6D3] px-5 py-3.5 rounded-3xl'
+                  ? 'text-xl font-bold border border-gray-700 px-5 py-3.5 rounded-3xl'
                   : 'text-xl font-bold text-[#8A8B91] '
               }`}
             >
@@ -59,7 +59,7 @@ const Navbar = () => {
       <div>
         <a
           href="#contact"
-          className="flex items-center gap-1.5 border px-8 py-3.5 text-2xl rounded-3xl bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] text-black font-semibold cursor-pointer"
+          className="flex items-center gap-1.5 border px-8 py-3.5 text-2xl rounded-3xl bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] text-black font-bold cursor-pointer"
         >
           Let's Talk <MessageSquareMore />
         </a>
