@@ -11,11 +11,14 @@ const Navbar = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
+        const visibleSections = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visibleSections.length > 0) {
+          setActiveSection(visibleSections[0].target.id);
+        }
+
       },
       {
         threshold: 0.6,
@@ -45,11 +48,10 @@ const Navbar = () => {
             <p
               key={item}
               onClick={() => scrollTo(id)}
-              className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ${
-                activeSection === id
+              className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ${activeSection === id
                   ? 'text-xl font-bold border border-gray-700 px-5 py-3.5 rounded-3xl'
                   : 'text-xl font-bold text-[#8A8B91] px-5 py-3.5 rounded-3xl'
-              }`}
+                }`}
             >
               {item}
             </p>

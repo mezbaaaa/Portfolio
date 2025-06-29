@@ -8,7 +8,7 @@ const Home = () => {
                 <button className='flex gap-2 font-semibold text-xl items-center border rounded-3xl px-4 py-1.5 border-gray-800 max-sm:text-sm'><Sparkles color='#E4B8BF' className='max-sm:size-4' /> Let's meet!</button>
             </div>
             <div>
-                <p className='text-8xl font-bold bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent mt-8 max-sm:text-4xl max-sm:mt-4  '>I’m Tahsinul Islam Mezba! Full-stack web dev building clean, modern apps.</p>
+                <p className='text-8xl font-bold bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent mt-8 max-sm:text-4xl max-sm:mt-4  '>I'm Tahsinul Islam Mezba! Full-stack web dev building clean, modern apps.</p>
             </div>
             
             <div className='mt-6 flex items-center gap-8'>

@@ -1,7 +1,6 @@
 import React from 'react';
 import profileImg from '../assets/avatar-profile.avif';
-import { Globe } from 'lucide-react';
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Profile = () => {
     return (
@@ -31,11 +30,11 @@ const Profile = () => {
 
             {/* Profile Image */}
             <div className='my-6 flex justify-center'>
-                <img src={profileImg} alt="Profile" className='rounded-2xl w-48 h-48 max-sm:w-40 max-sm:h-40 object-cover border border-gray-900 shadow-xl' />
+                <img src={profileImg} alt="Profile" className='rounded-2xl max-sm:w-52 max-sm:h-52 object-cover border border-gray-900 shadow-xl' />
             </div>
 
             {/* Specialization */}
-            <div className='text-center'>
+            <div className='max-sm:text-center'>
                 <p className='text-base text-[#C6C7D3]'>Specialization:</p>
                 <h2 className='text-[#E4B8BF] font-bold text-xl mt-2 space-y-1'>
                     <p>Full Stack Web Developer</p>
@@ -44,17 +43,17 @@ const Profile = () => {
             </div>
 
             {/* Location */}
-            <div className='text-center mt-4'>
+            <div className='max-sm:text-center mt-4'>
                 <p className='text-base text-[#C6C7D3]'>Based in:</p>
                 <h2 className='text-[#CEC4EF] font-bold text-xl'>Dhaka, Bangladesh</h2>
             </div>
 
             {/* Social Icons */}
             <div className='flex items-center justify-center gap-4 mt-6 flex-wrap'>
-                <a target='_blank' href="/" className='p-3 border rounded-3xl hover:scale-105 transition'><Globe /></a>
-                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition'><FaLinkedin size={20} /></a>
-                <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition'><FaGithub size={20} /></a>
-                <a target='_blank' href="https://www.facebook.com" className='p-3 border rounded-3xl hover:scale-105 transition'><FaFacebook size={20} /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaLinkedin size={20} /></a>
+                <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaGithub size={20} /></a>
+                <a target='_blank' href="https://www.facebook.com" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaFacebook size={20} /></a>
+                <a target='_blank' href="https://lnk.ink/nedME" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaWhatsapp size={21}/></a>
             </div>
 
             {/* CTA Button */}
