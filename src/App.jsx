@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
 
@@ -11,6 +12,7 @@ function App() {
       </div>
       <div className='col-span-3'>
         <Navbar></Navbar>
+        <Home></Home>
       </div>
     </div>
   )

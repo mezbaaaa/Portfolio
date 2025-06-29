@@ -31,20 +31,20 @@ const Profile = () => {
             </div>
             <div>
                 <p className='text-base text-[#C6C7D3]'>Specialization:</p>
-                <h2 className='text-[#E9E9F1] font-bold text-xl space-y-1.5 '>
+                <h2 className='text-[#E4B8BF] font-bold text-xl space-y-1.5 '>
                     <p className='mt-2'>Full Stack Web Developer</p>
                     <p>MERN Stack Enthusiast</p>
                 </h2>
             </div>
             <div className='mt-3'>
                 <p className='text-base text-[#C6C7D3]'>Based in:</p>
-                <h2 className='text-[#E9E9F1] font-bold text-xl '>Dhaka,Bangladesh</h2>
+                <h2 className='text-[#CEC4EF] font-bold text-xl '>Dhaka,Bangladesh</h2>
             </div>
             <div className='flex items-center justify-evenly mt-5'>
-                <a target='_blank' href="/"><p className='p-4 border rounded-2xl cursor-pointer'><Globe /></p></a>
-                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/"><p className='p-4 border rounded-2xl cursor-pointer'><FaLinkedin size={21} /></p></a>
-                <a target='_blank' href="https://github.com/mezbaaaa"><p className='p-4 border rounded-2xl cursor-pointer'><FaGithub size={21}/></p></a>
-                <a target='_blank' href="https://www.facebook.com"><p className='p-4 border rounded-2xl cursor-pointer'><FaFacebook size={21} /></p></a>
+                <a target='_blank' href="/"><p className='p-4 border rounded-3xl cursor-pointer'><Globe /></p></a>
+                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/"><p className='p-4 border rounded-3xl cursor-pointer'><FaLinkedin size={21} /></p></a>
+                <a target='_blank' href="https://github.com/mezbaaaa"><p className='p-4 border rounded-3xl cursor-pointer'><FaGithub size={21}/></p></a>
+                <a target='_blank' href="https://www.facebook.com"><p className='p-4 border rounded-3xl cursor-pointer'><FaFacebook size={21} /></p></a>
             </div>
             <div className='mt-4 mx-auto w-max'>
                 <a href=""><button className='font-bold text-xl border rounded-3xl py-3.5 px-7 cursor-pointer text-black bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] '>Let's Work Together</button></a>
