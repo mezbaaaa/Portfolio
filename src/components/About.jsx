@@ -63,15 +63,15 @@ const About = () => {
                 <div className='col-span-2 space-y-4'>
                     <div>
                         <p className='text-base font-medium text-[#bcbad3]'>Name</p>
-                        <h2 className='text-xl font-bold mt-.5 bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] bg-clip-text text-transparent'>Tahsinul Islam Mezba</h2>
+                        <h2 className='text-xl font-bold mt-.5 bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] bg-clip-text text-transparent '>Tahsinul Islam Mezba</h2>
                     </div>
                     <div>
                         <p className='text-base font-medium text-[#bcbad3]'>Phone</p>
-                        <h2 className='text-xl font-bold flex items-center gap-2 bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent'>+8801840913161<Copy onClick={handleCopy} className='cursor-pointer text-white/40' /></h2>
+                        <h2 className='text-xl font-bold flex items-center gap-2 bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent max-sm:text-base'>+8801840913161<Copy onClick={handleCopy} className='cursor-pointer text-white/40 max-sm:size-4' /></h2>
                     </div>
                     <div>
                         <p className='text-base font-medium text-[#bcbad3]'>Email</p>
-                        <h2 className='text-xl font-bold flex items-center gap-2 bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] bg-clip-text text-transparent'>mezbaaaa@gmail.com <Copy onClick={handleEmailCopy} className='cursor-pointer text-white/40'/></h2>
+                        <h2 className='text-xl font-bold flex items-center gap-2 bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] bg-clip-text text-transparent max-sm:text-base'>mezbaaaa@gmail.com <Copy onClick={handleEmailCopy} className='cursor-pointer text-white/40 max-sm:size-4'/></h2>
                     </div>
                     <div>
                         <p className='text-base font-medium text-[#bcbad3]'>Location</p>

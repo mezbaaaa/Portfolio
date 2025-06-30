@@ -56,7 +56,7 @@ const Resume = () => {
             {/* fev tools */}
             <div>
                 <div>
-                    <p className='mt-28 font-bold text-5xl text-[#e9e9f1] max-sm:mt-12 max-sm:text-3xl'>My favourite tools and language</p>
+                    <p className='mt-28 font-bold text-5xl text-[#e9e9f1] max-sm:mt-12 max-sm:text-3xl'>My Skills</p>
                 </div>
                 <div className="flex flex-wrap justify-start max-sm:justify-center gap-6 mt-10 ml-5 max-sm:ml-0 max-sm:mt-8">
                     {
