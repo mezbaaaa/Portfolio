@@ -1,10 +1,10 @@
 import { Sparkles } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 
-    
+
 const Resume = () => {
-    const [tools,setTools]=useState([])
-     useEffect(() => {
+    const [tools, setTools] = useState([])
+    useEffect(() => {
         fetch('/tools.json')
             .then(res => res.json())
             .then(data => setTools(data))
@@ -56,18 +56,26 @@ const Resume = () => {
             {/* fev tools */}
             <div>
                 <div>
-                <p className='mt-28 font-bold text-5xl text-[#e9e9f1] max-sm:mt-12 max-sm:text-3xl'>My favourite tools and language</p>
-            </div>
-            <div className='flex items-center justify-start ml-5 gap-10 text-center flex-wrap mt-18'>
-                {
-                    tools.map((tool,index)=><div key={index}>
-                        <div className=' border px-14 py-8 rounded-[50px] border-[#CEC4EF30] '>
-                            <img src={tool.icon} alt={tool.name} className='w-16 h-16' />
-                            <p className='font-bold text-lg bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent mt-2'>{tool.name} </p>
-                        </div>
-                    </div> )
-                }
-            </div>
+                    <p className='mt-28 font-bold text-5xl text-[#e9e9f1] max-sm:mt-12 max-sm:text-3xl'>My favourite tools and language</p>
+                </div>
+                <div className="flex flex-wrap justify-start max-sm:justify-center gap-6 mt-10 ml-5 max-sm:ml-0 max-sm:mt-8">
+                    {
+                        tools.map((tool, index) => (
+                            <div
+                                key={index}
+                                className="w-[140px] h-[140px] border border-[#CEC4EF30] rounded-4xl flex flex-col items-center justify-center shadow-md hover:scale-105 transition-transform"
+                            >
+                                <img
+                                    src={tool.icon}
+                                    alt={tool.name}
+                                    className="w-10 h-10 mb-2"
+                                />
+                                <p className="bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] bg-clip-text text-transparent font-bold">{tool.name}</p>
+                            </div>
+                        ))
+                    }
+                </div>
+
             </div>
         </div>
     );
