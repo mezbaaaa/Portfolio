@@ -51,11 +51,11 @@ const Profile = () => {
 
             {/* Social Icons */}
             <div className='flex items-center justify-center gap-4 mt-6 flex-wrap'>
-                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaLinkedin size={20} /></a>
-                <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaGithub size={20} /></a>
-                <a target='_blank' href="https://discord.com/users/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaDiscord size={20} /></a>
-                <a target='_blank' href="https://lnk.ink/nedME" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaWhatsapp size={21}/></a>
-                <a  href="mailto:mezbaaaa@gmail.com" rel="noopener noreferrer" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><Mail /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition border-[#E4B8BF30]'><FaLinkedin size={20} /></a>
+                <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-[#E4B8BF30]'><FaGithub size={20} /></a>
+                <a target='_blank' href="https://discord.com/users/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-[#E4B8BF30]'><FaDiscord size={20} /></a>
+                <a target='_blank' href="https://lnk.ink/nedME" className='p-3 border rounded-3xl hover:scale-105 transition border-[#E4B8BF30]'><FaWhatsapp size={21}/></a>
+                <a  href="mailto:mezbaaaa@gmail.com" rel="noopener noreferrer" className='p-3 border rounded-3xl hover:scale-105 transition border-[#E4B8BF30]'><Mail /></a>
             </div>
 
             {/* CTA Button */}

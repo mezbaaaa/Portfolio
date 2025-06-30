@@ -48,10 +48,12 @@ const Navbar = () => {
             <p
               key={item}
               onClick={() => scrollTo(id)}
-              className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ${activeSection === id
-                  ? 'text-xl font-bold border border-[#E4B8BF30] px-5 py-3.5 rounded-3xl'
+              className={`cursor-pointer text-xl backdrop-blur-md transition-all duration-300 ease-in-out transform 
+                  ${activeSection === id
+                  ? 'text-xl font-bold border border-[#E4B8BF30] px-5 py-3.5 rounded-3xl scale-105 -translate-y-1'
                   : 'text-xl font-bold text-[#8A8B91] px-5 py-3.5 rounded-3xl'
                 }`}
+
             >
               {item}
             </p>
