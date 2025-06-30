@@ -1,13 +1,13 @@
 import React from 'react';
 import profileImg from '../assets/avatar-profile.avif';
-import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { Mail } from 'lucide-react';
 
 const Profile = () => {
     return (
         <div className='border rounded-3xl py-8 px-7 max-sm:py-6 max-sm:px-4 border-[#161616] sticky top-17 z-50 mt-4 max-w-sm mx-auto bg-[#161616] '>
             {/* Header Section */}
-            <div className='flex items-center gap-4 max-sm:gap-2'>
+            <div className='flex items-center gap-4 max-sm:gap-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" className='w-14 h-14 max-sm:w-10 max-sm:h-10' viewBox="0 0 85 85">
                     <defs>
                         <linearGradient id="gradientFill" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
@@ -53,9 +53,9 @@ const Profile = () => {
             <div className='flex items-center justify-center gap-4 mt-6 flex-wrap'>
                 <a target='_blank' href="https://www.linkedin.com/in/mezbaaaa/" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaLinkedin size={20} /></a>
                 <a target='_blank' href="https://github.com/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaGithub size={20} /></a>
-                <a target='_blank' href="https://www.facebook.com" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaFacebook size={20} /></a>
+                <a target='_blank' href="https://discord.com/users/mezbaaaa" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaDiscord size={20} /></a>
                 <a target='_blank' href="https://lnk.ink/nedME" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><FaWhatsapp size={21}/></a>
-                <a  href="mailto:tahsinul101@gmail.com" rel="noopener noreferrer" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><Mail /></a>
+                <a  href="mailto:mezbaaaa@gmail.com" rel="noopener noreferrer" className='p-3 border rounded-3xl hover:scale-105 transition border-gray-600'><Mail /></a>
             </div>
 
             {/* CTA Button */}
