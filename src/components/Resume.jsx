@@ -14,10 +14,10 @@ const Resume = () => {
                 <p className='font-bold text-2xl text-[#c6c7d3] mt-9 max-sm:text-base max-sm:mt-5 '>Be what you would seem to be - or, if you'd like it put more simply - never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise.</p>
             </div>
             <div>
-                <p className='mt-28 font-bold text-5xl text-[#e9e9f1]'>My education</p>
+                <p className='mt-28 font-bold text-5xl text-[#e9e9f1] max-sm:mt-12 max-sm:text-3xl'>My education</p>
             </div>
-            <div className="divider my-9"></div>
-            <div className='grid grid-cols-12 gap-x-10 items-center ml-7'>
+            <div className="divider my-9 max-sm:my-5"></div>
+            <div className='grid grid-cols-12 gap-x-10 items-center ml-7 max-sm:grid-cols-1 max-sm:ml-0 max-sm:space-y-4'>
                 <div className='col-span-2'>
                     <p className='text-base font-medium text-[#c7c6d3] '>2024-2025</p>
                 </div>
@@ -29,8 +29,8 @@ const Resume = () => {
                     <p className='font-bold text-md text-[#ddc5c9be]'>I took an intro-level coding course where I learned web development basics by actually building projects</p>
                 </div>
             </div>
-            <div className="divider my-9"></div>
-            <div className='grid grid-cols-12 gap-x-10 items-center ml-7'>
+            <div className="divider my-9 max-sm:my-5"></div>
+            <div className='grid grid-cols-12 gap-x-10 items-center ml-7 max-sm:grid-cols-1 max-sm:ml-0 max-sm:space-y-4'>
                 <div className='col-span-2'>
                     <p className='text-base font-medium text-[#c7c6d3] '>2023-2024</p>
                 </div>
