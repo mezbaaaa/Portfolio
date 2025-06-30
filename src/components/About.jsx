@@ -55,10 +55,10 @@ const About = () => {
                 </div>
             </div>
             <div className='grid grid-cols-7 mt-12 gap-10 max-sm:grid-cols-1'>
-                <div className='col-span-5'>
+                <div className='col-span-5 max-sm:text-center'>
                     <p className='font-bold text-2xl ml-4 max-sm:ml-0 max-sm:text-base'>I used to think I was writing code to build things. Now I know—I'm also building myself. Every challenge rewires a little bit of how I think. Every problem solved leaves a trace. And when I read my own code from yesterday, I can't help but wonder: was that really me—or just a version of me who didn't know what I do now?</p><br />
                     <p className='font-bold text-2xl ml-4 max-sm:ml-0 max-sm:text-base'>maybe that's the point—growth isn't loud. It happens quietly, commit by commit, until suddenly you see things clearer. I'm not just learning tools; I'm learning intention. I don't build fast—I build right.</p>
-                    <a href="/CV.pdf" download ><button className='flex items-center gap-2 text-black bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] px-10 py-3 rounded-2xl mt-5 font-bold text-xl ml-4 cursor-pointer max-sm:ml-14'>Download CV <Download className='max-sm:size-5' /></button></a>
+                    <a href="/CV.pdf" download ><button className='flex items-center gap-2 text-black bg-gradient-to-r from-[#E4B8BF] to-[#CEC4EF] px-10 py-3 rounded-2xl mt-5 font-bold text-xl ml-4 max-sm:mx-auto max-sm:w-max cursor-pointer'>Download CV <Download className='max-sm:size-5' /></button></a>
                 </div>
                 <div className='col-span-2 space-y-4'>
                     <div>

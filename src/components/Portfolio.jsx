@@ -40,7 +40,7 @@ const Portfolio = () => {
                             </div>
 
                             {/* Tags */}
-                            <p className="absolute top-20 left-4 text-white text-xl font-semibold z-10 drop-shadow flex flex-wrap max-sm:top-18 gap-2">
+                            <p className="absolute top-20 left-4 text-white text-xl font-semibold z-10 drop-shadow flex flex-wrap max-sm:top-20 gap-2">
                                 {project.tags.map((tag, index) => {
                                     const colors = [
                                         { bg: '#be123c30', text: '#be123c' },
@@ -65,7 +65,7 @@ const Portfolio = () => {
                                     );
                                 })}
                             </p>
-                            <div className="absolute bottom-8 left-14 flex gap-4 max-sm:left-10">
+                            <div className="absolute bottom-8 left-14 flex gap-4 max-sm:left-5">
                                 {project.buttons.live && (
                                     <a href={project.buttons.live} target="_blank" rel="noopener noreferrer">
                                         <button className="cursor-pointer py-4 px-6 rounded-2xl flex items-center gap-2.5 text-xl font-bold bg-gradient-to-r from-[#CEC4EF] to-[#E4B8BF] text-black max-sm:py-2 max-sm:px-3 max-sm:text-sm">
