@@ -1,0 +1,114 @@
+[
+    {
+        "id": "proj-001",
+        "title": "EcoMeet — Social Events Platform",
+        "description": "EcoMeet is a full-stack web app that promotes eco-friendly and social development events. Built with React, Firebase Auth, Node.js, and MongoDB, it allows users to create, join, and manage community events with secure authentication and a clean, responsive UI. The goal was to learn real-world authentication, protected routing, CRUD operations, and to build something meaningful that encourages positive community action.",
+        "tags": [
+            "Full-Stack",
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Firebase"
+        ],
+        "image": "https://i.ibb.co/FkTPKQJx/Screenshot-2025-06-30-012958.png",
+        "buttons": {
+            "live": "https://ecomeet.netlify.app/",
+            "github": "https://github.com/mezbaaaa/EcoMeet"
+        },
+        "keyFeatures": [
+            "User authentication via Firebase (Email & Google)",
+            "JWT-protected private routes",
+            "Create, join, and leave events",
+            "Future-only date selection using React DatePicker",
+            "Event filtering and categorization",
+            "Track joined and created events",
+            "Responsive UI with dark/light mode toggle",
+            "Toast notifications for success & errors",
+            "MongoDB backend with Express.js API"
+        ]
+    },
+    {
+        "id": "proj-002",
+        "title": "TaskNest — Freelance Task Marketplace",
+        "description": "TaskNest is a full-stack freelance marketplace where users can post tasks, bid on projects, and manage freelance workflows. Built using React, Firebase, Node.js, and MongoDB, the platform supports user roles, protected routes, CRUD operations, and a responsive UI with task filtering, bidding, and featured sliders. The project was designed to simulate real-world freelance platforms and showcase dynamic data handling with authentication.",
+        "tags": [
+            "Full-Stack",
+            "React",
+            "Firebase",
+            "MongoDB",
+            "Marketplace"
+        ],
+        "image": "https://i.ibb.co/JRTB3VRh/Screenshot-2025-06-30-013658.png",
+        "buttons": {
+            "live": "https://tasknestweb.netlify.app/",
+            "github": "https://github.com/mezbaaaa/Task-Nest"
+        },
+        "keyFeatures": [
+            "User roles: Client & Freelancer",
+            "Task posting with title, description, category, budget, deadline",
+            "Bidding system with proposal & amount",
+            "View tasks with filters and categories",
+            "JWT-protected routes and role-based access",
+            "Featured Task Slider showcasing top projects",
+            "CRUD operations for tasks and bids",
+            "Responsive UI with dark/light mode toggle",
+            "Firebase Authentication with persistent login",
+            "Backend built with Express.js and MongoDB"
+        ]
+    },
+    {
+        "id": "proj-003",
+        "title": "BD Lawyer — Legal Services Platform",
+        "description": "BD Lawyer is a legal services web app built to connect users in Bangladesh with qualified lawyers across multiple specialties. Using React, Firebase, and MongoDB, the platform allows users to search, filter, and book appointments with lawyers while enabling lawyers to manage their profiles and availability. The project focuses on real-world service booking functionality with secure authentication and a clean, responsive design.",
+        "tags": [
+            "Full-Stack",
+            "React",
+            "Firebase",
+            "MongoDB",
+            "Booking System"
+        ],
+        "image": "https://i.ibb.co/k6x3NFMq/Screenshot-2025-06-30-014326.png",
+        "buttons": {
+            "live": "https://lawyerbdweb.netlify.app/",
+            "github": "https://github.com/mezbaaaa/BD-lawyer"
+        },
+        "keyFeatures": [
+            "Firebase authentication with user and lawyer roles",
+            "Lawyer directory with filtering by category",
+            "Appointment booking system",
+            "JWT-protected dashboard routes",
+            "Lawyer dashboard to manage availability and bookings",
+            "User dashboard for tracking appointments",
+            "Search functionality with category filtering",
+            "Responsive layout with dark/light mode toggle",
+            "Built with React, Tailwind, Firebase, and MongoDB"
+        ]
+    },
+    {
+        "id": "proj-004",
+        "title": "AppStore — Full-Featured App Marketplace",
+        "description": "AppStore is a dynamic marketplace website where users can browse, search, and discover apps with detailed info like downloads, ratings, and developer profiles. Built with React, Firebase, and MongoDB, it features user authentication, protected routes, app filtering by category, and a responsive UI designed for seamless user experience.",
+        "tags": [
+            "Full-Stack",
+            "React",
+            "Firebase",
+            "MongoDB",
+            "Marketplace"
+        ],
+        "image": "https://i.ibb.co/hF1LFqRt/Screenshot-2025-06-30-014723.png",
+        "buttons": {
+            "live": "https://app-store-web.netlify.app/",
+            "github": "https://github.com/mezbaaaa/app-store"
+        },
+        "keyFeatures": [
+            "User authentication with Firebase (email & Google)",
+            "Browse and search apps with filters by category and rating",
+            "Dynamic app details including thumbnails, banners, downloads, and reviews",
+            "Protected routes for user profiles and app management",
+            "Responsive design with mobile-first approach",
+            "Backend API using Node.js, Express.js, and MongoDB",
+            "Dark/light mode toggle",
+            "Real-time data updates with Firebase"
+        ]
+    }
+]

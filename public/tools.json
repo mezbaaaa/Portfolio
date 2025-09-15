@@ -1,0 +1,58 @@
+[
+  {
+    "name": "HTML5",
+    "icon": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://skillicons.dev/icons?i=css"
+  },
+  {
+    "name": "Tailwind ",
+    "icon": "https://skillicons.dev/icons?i=tailwind"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://skillicons.dev/icons?i=js"
+  },
+  {
+    "name": "React",
+    "icon": "https://skillicons.dev/icons?i=react"
+  },
+  {
+    "name": "Node.js",
+    "icon": "https://skillicons.dev/icons?i=nodejs"
+  },
+  {
+    "name": "Express.js",
+    "icon": "https://skillicons.dev/icons?i=express"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://skillicons.dev/icons?i=mongodb"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://skillicons.dev/icons?i=firebase"
+  },
+  {
+    "name": "Git",
+    "icon": "https://skillicons.dev/icons?i=git"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://skillicons.dev/icons?i=vscode"
+  },
+  {
+    "name": "Github",
+    "icon": "https://skillicons.dev/icons?i=github"
+  },
+  {
+    "name": "Vercel",
+    "icon": "https://skillicons.dev/icons?i=vercel"
+  },
+  {
+    "name": "Netlify",
+    "icon": "https://skillicons.dev/icons?i=netlify"
+  }
+]
